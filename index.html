@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>SVG RaD</h1>
+
+    <div class="gallery" id="gallery">
+
+    </div>
+
+    <div id="codeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 id="modalTitle">SVG Title</h2>
+            <div class="modal-svg-container" id="modalSvgContainer">
+            </div>
+            <h3>SVG Code:</h3>
+            <div class="code-container">
+                <pre id="svgCode"></pre>
+            </div>
+            <button class="copy-button" id="copyButton">Copy SVG Code</button>
+        </div>
+    </div>
+
+    <script src="script/affichageElements.js"></script>
+
+</body>
+
+</html>
